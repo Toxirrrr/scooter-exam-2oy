@@ -380,11 +380,6 @@ a {
   text-decoration: none;
 }
 
-picture {
-  width: 445px;
-  height: 445px;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -404,7 +399,7 @@ picture {
   padding-right: 20px;
 }
 
-.hero__bg-container {
+.hero-bg {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -614,12 +609,12 @@ picture {
 }
 
 .hero {
-  padding-bottom: 125px;
+  margin-top: 125px;
 }
 
 .hero-bg {
   background-image: url(./../../images/hero__bgi.jpg);
-  background-size: container;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 153px;
@@ -1029,23 +1024,8 @@ picture {
 }
 
 .girl__picture {
-  -webkit-box-shadow: 535px 0px 0 #E5ECF4;
-          box-shadow: 535px 0px 0 #E5ECF4;
-  border-radius: 50%;
   position: relative;
   z-index: -1;
-}
-
-.girl__picture::before {
-  display: inline-block;
-  position: absolute;
-  content: "";
-  background-image: url(./../../images/nth__cross.svg);
-  background-repeat: no-repeat;
-  width: 741px;
-  height: 151px;
-  top: 67%;
-  right: -35%;
 }
 
 @media only screen and (max-width: 923px) {
@@ -1058,7 +1038,6 @@ picture {
             justify-content: center;
   }
   .girl__wrapper {
-    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1078,7 +1057,6 @@ picture {
     margin-right: auto;
   }
   .girl__picture {
-    position: absolute;
     left: 26%;
     top: 110%;
   }

@@ -47,21 +47,21 @@
     }
     
     &__picture{
-        box-shadow: 535px 0px 0 #E5ECF4;
-        border-radius: 50%;
+        // box-shadow: 535px 0px 0 #E5ECF4;
+        // border-radius: 50%;
         position: relative;
         z-index: -1;
-        &::before {
-            display: inline-block;
-            position: absolute;
-            content: "";
-            background-image: url(./../../images/nth__cross.svg);
-            background-repeat: no-repeat;
-            width: 741px;
-            height: 151px;
-            top: 67%;
-            right: -35%;
-        }
+        // &::before {
+        //     display: inline-block;
+        //     position: absolute;
+        //     content: "";
+        //     background-image: url(./../../images/nth__cross.svg);
+        //     background-repeat: no-repeat;
+        //     width: 741px;
+        //     height: 151px;
+        //     top: 67%;
+        //     right: -35%;
+        // }
     }
     
     
@@ -76,7 +76,6 @@
         }
         
         &__wrapper {
-            position: relative;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -99,7 +98,6 @@
         }
         
         &__picture{
-            position: absolute;
             left: 26%;
             top: 110%;
         }

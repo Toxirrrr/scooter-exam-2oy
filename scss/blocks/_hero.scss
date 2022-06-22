@@ -1,9 +1,9 @@
 .hero {
-    padding-bottom: 125px;
+    margin-top: 125px;
     
     &-bg {
         background-image: url(./../../images/hero__bgi.jpg);
-        background-size: container;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         padding-top: 153px;
