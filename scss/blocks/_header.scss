@@ -7,8 +7,6 @@
     background-color: #fff;
     z-index: 99;
     
-    &__container {
-    }
     
     &__wrapper {
         display: flex;
@@ -22,10 +20,6 @@
         border: none;
         outline: none;
         background: none;
-    }
-    
-    &__img {
-        
     }
     
     &__menu {
@@ -110,40 +104,10 @@
     
     .header {
         
-        &__container {
-            
-        }
-        
-        &__wrapper {
-            
-        }
-        
-        &__img-link {
-            
-        }
-        
-        &__img {
-        }
-        
-        &__wrapper-text {
-            
-        }
-        
         &__nav {
             margin-left: 30px;
         }
         
-        &__list {
-            
-        }
-        
-        &__item {
-            
-        }
-        
-        &__link {
-            
-        }
     }
     
 }

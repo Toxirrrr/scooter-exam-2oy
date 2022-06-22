@@ -1062,7 +1062,7 @@ a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .girl__wrapper {
+  __wrapper {
     position: relative;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1076,7 +1076,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .girl__picture {
+  __picture {
     position: absolute;
     bottom: 186px;
     left: 25%;

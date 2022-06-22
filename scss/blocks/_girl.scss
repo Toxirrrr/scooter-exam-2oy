@@ -61,56 +61,25 @@
         &__container {
             justify-content: center;
         }
+    }
+    &__wrapper {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
         
-        &__wrapper {
-            position: relative;
-            justify-content: center;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            
-        }
-        
-        &__header {
-            
-        }
-        
-        &__text {
-            
-        }
-        
-        &__link {
-            
-        }
-        
-        &__picture{
-            position: absolute;
-            bottom: 186px;
-            left: 25%;
-        }
+    }
+    
+    &__picture{
+        position: absolute;
+        bottom: 186px;
+        left: 25%;
     }
 }
-
 @media only screen and (max-width:870px) { 
     
     .girl {
-        
-        &__container {
-        }
-        
-        &__wrapper {
-        }
-        
-        &__header {
-            
-        }
-        
-        &__text {
-            
-        }
-        
-        &__link {
-        }
         
         &__picture{
             bottom: calc(195px);
@@ -122,23 +91,6 @@
     
     .girl {
         
-        &__container {
-        }
-        
-        &__wrapper {
-        }
-        
-        &__header {
-            
-        }
-        
-        &__text {
-            
-        }
-        
-        &__link {
-        }
-        
         &__picture{
             bottom: 205px;
             left: -3%;
@@ -149,15 +101,6 @@
     
     .girl {
         padding-top: 250px;
-        &__container {
-        }
-        
-        &__wrapper {
-        }
-        
-        &__header {
-            
-        }
         
         &__text {
             font-size: 32px;
@@ -181,16 +124,6 @@
     
     .girl {
         padding-top: 250px;
-        &__container {
-        }
-        
-        &__wrapper {
-        }
-        
-        &__header {
-            
-        }
-        
         &__text {
             font-size: 32px;
             line-height: 32px;
@@ -212,15 +145,6 @@
     
     .girl {
         padding-top: 250px;
-        &__container {
-        }
-        
-        &__wrapper {
-        }
-        
-        &__header {
-            
-        }
         
         &__text {
             font-size: 32px;
@@ -242,21 +166,6 @@
 @media only screen and (max-width:326px) { 
     
     .girl {
-        &__container {
-        }
-        
-        &__wrapper {
-        }
-        
-        &__header {
-            
-        }
-        
-        &__text {
-        }
-        
-        &__link {
-        }
         
         &__picture{
             bottom: 380px;

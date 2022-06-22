@@ -93,27 +93,6 @@
             text-align: center;
         }
         
-        &__heading {
-        }
-        
-        &__wrapper {
-        }
-    }
-    .appstore {
-        
-        &__text {
-        }
-        
-        &__heading {
-        }
-    }
-    .googleplay {
-        
-        &__text {
-        }
-        
-        &__heading {
-        }
     }
     
     
@@ -171,31 +150,8 @@
     
     .app {
         
-        &__container {
-        }
-        
-        &__heading {
-        }
-        
         &__wrapper {
             flex-direction: column;
         }
     }
-    .appstore {
-        
-        &__text {
-        }
-        
-        &__heading {
-        }
-    }
-    .googleplay {
-        
-        &__text {
-        }
-        
-        &__heading {
-        }
-    }
-    
 }
