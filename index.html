@@ -20,7 +20,7 @@
                     </button>
                     
                     <div class="header__wrapper-text">
-                        <nav class="header__nav header__nav-br ">
+                        <nav class="header__nav">
                             <ul class="header__list header__list-bar">
                                 <li class="header__item">
                                     <a class="header__item-link" href="./index.html">About</a>
@@ -102,41 +102,43 @@
                         
                         <a class="girl__link" href="./index.html">Learn More</a>
                     </div>
-                    <picture class="girl__picture">
-                        <!-- avif -->
-                        <source
-                        type="image/avif"
-                        media="(max-width: 800px)"
-                        srcset="./images/telemetry.avif 1x, ./images/telemetry@2x.avif 2x"
-                        >
-                        
-                        <source
-                        type="image/avif"
-                        srcset="./images/telemetry.avif 1x, ./images/telemetry@2x.avif 2x"
-                        >
-                        
-                        
-                        <!-- WebP -->
-                        <source
-                        type="image/webp"
-                        media="(max-width: 800px)"
-                        srcset="./images/telemetry.webp 1x, ./images/telemetry@2x.webp 2x"
-                        >
-                        
-                        <source
-                        type="image/webp"
-                        srcset="./images/telemetry.webp 1x, ./images/telemetry2x.webp 2x"
-                        >
-                        
-                        <!-- PNG -->
-                        <source
-                        media="(max-width: 800px)"
-                        srcset="./images/telemetry.png 1x, ./images/telemetry@2x.png 2x"
-                        >
-                        
-                        
-                        <img class="girl__img girl__picture" src="./images/telemetry.png" alt="" srcset="./images/telemetry.png 1x, ./images/telemetry@2x.png 2x">
-                    </picture>
+                    <div class="girl__picture">
+                        <picture class="girl__picture">
+                            <!-- avif -->
+                            <source
+                            type="image/avif"
+                            media="(max-width: 800px)"
+                            srcset="./images/telemetry.avif 1x, ./images/telemetry@2x.avif 2x"
+                            >
+                            
+                            <source
+                            type="image/avif"
+                            srcset="./images/telemetry.avif 1x, ./images/telemetry@2x.avif 2x"
+                            >
+                            
+                            
+                            <!-- WebP -->
+                            <source
+                            type="image/webp"
+                            media="(max-width: 800px)"
+                            srcset="./images/telemetry.webp 1x, ./images/telemetry@2x.webp 2x"
+                            >
+                            
+                            <source
+                            type="image/webp"
+                            srcset="./images/telemetry.webp 1x, ./images/telemetry2x.webp 2x"
+                            >
+                            
+                            <!-- PNG -->
+                            <source
+                            media="(max-width: 800px)"
+                            srcset="./images/telemetry.png 1x, ./images/telemetry@2x.png 2x"
+                            >
+                            
+                            
+                        </picture>
+                        <img class="girl__img girl__picture" src="./images/telemetry.png" alt="" srcset="./images/telemetry.png 1x, ./images/telemetry@2x.png 2x" >
+                    </div>
                 </div>
             </div>
         </section>
@@ -180,16 +182,16 @@
             <div class="container">
                 <div class="app__container">
                     <h2 class="app__heading">Sign up and Scoot off today</h2>
-
+                    
                     <div class="app__wrapper">
                         <a href="#" class="appstore">
-
+                            
                             <p class="appstore__text">Available on the</p>
                             <h3 class="appstore__heading">AppStore</h3>
                         </a>
                         <a class="googleplay" href="#">
                             <p class="googleplay__text">Get it on</p>
-
+                            
                             <h3 class="googleplay__heading">GooglePlay</h3>
                         </a>
                     </div>
@@ -198,33 +200,31 @@
         </section>
     </main>
     
-
-
+    
+    
     <footer class="footer">
         <div class="container">
             <div class="footer__container">
                 <div class="footer__wrapper">
-                    <button type="submit" class="header__img-link">
-                        <img class="footer" src="./images/header__logo.svg" alt="header__logo" width="108" height="29">
-                    </button>
-                    
                     <div class="footer__wrapper-text">
-                        <nav class="footer__nav footer__nav-br ">
-                            <ul class="footer__list footer__list-bar">
-                                <li class="footer__item">
-                                    <a class="footer__item-link" href="./index.html">About</a>
-                                </li>
-                                <li class="footer__item">
-                                    <a class="footer__item-link" href="./index.html">Location</a>
-                                </li>
-                                <li class="footer__item">
-                                    <a class="footer__item-link" href="./index.html">Careers</a>
-                                </li>
-                            </ul>
-                            <a class="footer__link button" href="./index.html">
-                                <img src="./images/footer__svg.svg" alt="footer__social"  width="120" height="24" >
-                            </a>
-                        </nav>
+                        <a class="header__img-link" href="./index.html" type="submit" >
+                            <img class="footer" src="./images/header__logo.svg" alt="header__logo" width="108" height="29">
+                        </a>
+                        
+                        <ul class="footer__list footer__list-bar">
+                            <li class="footer__item">
+                                <a class="footer__item-link" href="./index.html">About</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item-link" href="./index.html">Location</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__item-link" href="./index.html">Careers</a>
+                            </li>
+                        </ul>
+                        <a class="footer__link" href="./index.html">
+                            <img src="./images/footer__svg.svg" alt="footer__social"  width="120" height="24" >
+                        </a>
                         
                         
                     </div>
