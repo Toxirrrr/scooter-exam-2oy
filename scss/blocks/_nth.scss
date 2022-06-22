@@ -112,9 +112,29 @@
 @media only screen and (max-width:1000px) { 
     
     .nth {
-
+        &__item__one::after {
+            display: inline-block;
+            position: absolute;
+            content: "";
+            background-image: url(./../../images/nth__cross.svg);
+            width: 741px;
+            height: 160px;
+            top: 0;
+            left: calc(-549px);
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+        }
+        &:nth-child(2) {
+            &:after {
+                width: 0;
+                height: 0;
+            }
+        }
+        .nth__item:nth-child(2):after {
+            width: 0;
+            height: 0;
+        }
         &__container {
-
+            
         }
         
         &__wrapper {
@@ -122,21 +142,29 @@
         }
         
         &__list {
-            
         }
         
         &__item {
-            
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            &:nth-child(2n)  img {
+                order: 0;
+            }
         }
-            
-        &__item {
-            
-        }
-            
-        &__item {
-            
-        }
-            
+        
+        &__img__two::before {
+            display: inline-block;
+            position: absolute;
+            content: "";
+            background-image: url(./../../images/nth__cross.svg);
+            width: 741px;
+            height: 151px;
+            top: 74px;
+            right: -70px;
+            background-repeat: no-repeat;
+        } 
+        
         &__item-header {
             
         }
@@ -147,6 +175,5 @@
         &__item-link {
             
         }
-        
     }
 }
