@@ -362,10 +362,6 @@ template {
           box-sizing: border-box;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 body {
   font-family: 'Lexend deca', 'Space-mono', 'Arial';
   margin: 0;
@@ -974,7 +970,7 @@ a {
 }
 
 .girl {
-  padding-top: 200px;
+  padding-top: 400px;
 }
 
 .girl__container {
@@ -1024,20 +1020,23 @@ a {
 }
 
 .girl__picture {
-  position: relative;
-  z-index: -1;
+  -webkit-box-shadow: 535px 0px 0 #E5ECF4;
+          box-shadow: 535px 0px 0 #E5ECF4;
+  border-radius: 50%;
 }
 
-@media only screen and (max-width: 923px) {
-  .girl {
-    padding-top: 300px;
-  }
+@media only screen and (max-width: 930px) {
   .girl__container {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
   .girl__wrapper {
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1045,20 +1044,11 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    text-align: center;
-  }
-  .girl__link {
-    max-width: 180px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
   }
   .girl__picture {
-    left: 26%;
-    top: 110%;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
   }
 }
 
