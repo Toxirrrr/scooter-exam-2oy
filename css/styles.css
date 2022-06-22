@@ -561,9 +561,7 @@ a {
     width: 0;
   }
   .header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -575,7 +573,6 @@ a {
     padding: 64px 135px 1000px 32px;
     background-color: #333A44;
     width: 90%;
-    overflow-y: hidden;
   }
   .header__list {
     display: -webkit-box;
@@ -974,6 +971,56 @@ a {
     top: -40%;
     left: 35%;
   }
+}
+
+.girl {
+  padding-top: 200px;
+}
+
+.girl__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.girl__wrapper {
+  max-width: 445px;
+  width: 100%;
+}
+
+.girl__header {
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #495567;
+}
+
+.girl__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  color: #939CAA;
+}
+
+.girl__link {
+  font-family: 'Space Mono';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 14px 44px;
+  background-color: #FCB72B;
+  display: inline-block;
+  margin: 0;
 }
 
 .nth__list {

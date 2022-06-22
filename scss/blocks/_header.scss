@@ -184,7 +184,7 @@
         }
         
         &__nav {
-            display: flex;
+            display: none;
             flex-direction: column;
             width: 256px;
             position: absolute;
@@ -193,7 +193,6 @@
             padding: 64px 135px 1000px 32px;
             background-color: #333A44;
             width: 90%;
-            box-shadow: ;
         }
         
         &__list {

@@ -1,0 +1,53 @@
+.girl {
+    
+    padding-top: 200px;
+    
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__wrapper {
+        max-width: 445px;
+        width: 100%;
+    }
+    
+    &__header {
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #495567;
+        
+    }
+    
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 24px;
+        margin-bottom: 40px;
+        color: #939CAA;
+    }
+    
+    &__link {
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 14px 44px;
+        background-color: #FCB72B;
+        display: inline-block;
+        margin: 0;
+    }
+
+    &__img&::before {
+        
+    }
+}
+.container {
+}
