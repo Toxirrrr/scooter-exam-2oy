@@ -980,6 +980,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
 }
 
 .girl__wrapper {
@@ -1047,8 +1048,85 @@ a {
   }
   .girl__picture {
     position: absolute;
-    left: 10px;
-    bottom: 10px;
+    bottom: 375px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .girl {
+    padding-bottom: 500px;
+  }
+  .girl__picture {
+    bottom: 375px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .girl__picture {
+    bottom: 410px;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+  .girl {
+    padding-top: 250px;
+  }
+  .girl__text {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .girl__link {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .girl__picture {
+    bottom: 635px;
+    width: 311px;
+    height: 311px;
+  }
+}
+
+@media only screen and (max-width: 396px) {
+  .girl {
+    padding-top: 250px;
+  }
+  .girl__text {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .girl__link {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .girl__picture {
+    bottom: 665px;
+    width: 311px;
+    height: 311px;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .girl {
+    padding-top: 250px;
+  }
+  .girl__text {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .girl__link {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .girl__picture {
+    bottom: 700px;
+    width: 311px;
+    height: 311px;
+  }
+}
+
+@media only screen and (max-width: 326px) {
+  .girl__picture {
+    bottom: 770px;
   }
 }
 
