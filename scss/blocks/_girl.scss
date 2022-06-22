@@ -85,7 +85,8 @@
         
         &__picture{
             position: absolute;
-            bottom: 375px;
+            bottom: 186px;
+            left: 25%;
         }
     }
 }
@@ -93,7 +94,6 @@
 @media only screen and (max-width:870px) { 
     
     .girl {
-        padding-bottom: 500px;
         
         &__container {
         }
@@ -113,8 +113,8 @@
         }
         
         &__picture{
-            bottom: 375px;
-            
+            bottom: calc(195px);
+            left: calc(70px);
         }
     }
 }
@@ -140,8 +140,8 @@
         }
         
         &__picture{
-            bottom: 410px;
-            
+            bottom: 205px;
+            left: -3%;
         }
     }
 }
@@ -170,9 +170,10 @@
         }
         
         &__picture{
-            bottom: 635px;
+            bottom: 315px;
             width: 311px;
             height: 311px;
+            left: 10px;
         }
     }
 }
@@ -201,7 +202,7 @@
         }
         
         &__picture{
-            bottom: 665px;
+            bottom: 335px;
             width: 311px;
             height: 311px;
         }
@@ -232,7 +233,7 @@
         }
         
         &__picture{
-            bottom: 700px;
+            bottom: 363px;
             width: 311px;
             height: 311px;
         }
@@ -258,7 +259,8 @@
         }
         
         &__picture{
-            bottom: 770px;
+            bottom: 380px;
+            left: -8px;
         }
     }
 }

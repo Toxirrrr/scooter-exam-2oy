@@ -23,13 +23,15 @@
     }
     
     &__img {
-        
+        margin-bottom: 15px;
     }
     
     &__wrapper-text {
         display: flex;
         max-width: 1000px;
         width: 100%;
+        justify-content: space-between;
+        align-items: center;
     }
     
     &__nav {
@@ -55,7 +57,7 @@
         line-height: 25px;
         color: #939CAA;
         align-items: center;
-
+        
     }
     &__item-link:hover {
         color: #FCB72B;
@@ -68,17 +70,6 @@
         opacity: 0.6;
     }
     
-    .button {
-        padding: 14px 39px;        
-        padding-top: 15px;
-        list-style-type: none;
-        text-decoration: none;
-        border: none;
-        outline: none;
-        min-width: 184px;
-        max-width: 185px;
-        
-    }
 }
 
 @media only screen and (max-width:768px) { 
@@ -111,46 +102,38 @@
         
         &__wrapper {
             display: flex;
-            justify-content: center;
-            position: relative;
             padding-top: 22px;
             padding-bottom: 22px;
+            flex-direction: column;
+            
+        }
+        
+        &__container {
+            display: flex;
+            justify-content: center;            
         }
         
         &__menu {
-            display: flex;
             position: absolute;
             top: 33px;
             left: 10px;
         }
         
         &__wrapper-text {
-            width: 0;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
         }
         
         &__nav {
-            display: none;
+            padding-top: 40px;
+            display: flex;
             flex-direction: column;
-            width: 256px;
-            position: absolute;
-            top: 75px;
-            left: -20px;
-            padding: 64px 135px 1000px 32px;
-            background-color: #333A44;
-            width: 90%;
+            padding-bottom: 80px;
         }
         
         &__list {
-            display: flex;
             flex-direction: column;
-            margin: 0;
-            padding: 0;
-            justify-content: none;
-            gap: 24px;
-            max-width: 100px;
-            width: 100%;
-            align-items: flex-start;
-            margin-bottom: 250px;
         }
         
         &__item-link {

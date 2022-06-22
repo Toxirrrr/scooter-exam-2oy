@@ -8,6 +8,7 @@
         background-repeat: no-repeat;
         padding-top: 153px;
         padding-bottom: 152px;
+        
         @media
         only screen and (-webkit-min-device-pixel-ratio: 2),
         only screen and (   min--moz-device-pixel-ratio: 2),
@@ -102,6 +103,19 @@
         
         &__bg-container {
             background-image: url(./../../images/hero__bgi-tablet.jpg);
+            @media
+            only screen and (-webkit-min-device-pixel-ratio: 2),
+            only screen and (   min--moz-device-pixel-ratio: 2),
+            only screen and (     -o-min-device-pixel-ratio: 2/1),
+            only screen and (        min-device-pixel-ratio: 2),
+            only screen and (                min-resolution: 192dpi),
+            only screen and (                min-resolution: 2dppx) { 
+                
+                &__content {
+                    background-image: url(./../../images/hero__bgi-tablet@2x.jpg);
+                }
+            }
+
             padding-top: 137px;
         }
         

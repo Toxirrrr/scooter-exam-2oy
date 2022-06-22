@@ -135,11 +135,13 @@
             height: 0;
         }
         &__container {
-            
+            display: flex;
+            justify-content: center;
         }
         
         &__wrapper {
-            
+            display: flex;
+            justify-content: space-between;
         }
         
         &__list {
@@ -149,6 +151,7 @@
             position: relative;
             display: flex;
             flex-direction: column;
+            text-align: center;
             &:nth-child(2n)  img {
                 order: 0;
             }
