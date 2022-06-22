@@ -1,0 +1,201 @@
+.step {
+    
+    padding-top: 160px;
+    
+    &__inner-wrapper {
+        
+    }
+    
+    &__container {
+        
+    }
+    
+    &__list {
+        display: flex;
+        list-style-type: none;
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 93%;
+            height: 5px;
+            border: 15px solid #E5ECF4;
+            background-color: #E5ECF4;
+            display: inline-block;
+            top: 12%;
+            left: -170px;
+        }
+    }
+    
+    &__item {
+        margin-left: 15px;
+        margin-right: 15px;
+        position: relative;
+        padding-top: 100px;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border: none;
+            background-color: none;
+            display: inline-block;
+            top: 12%;
+            left: 0;
+        }
+        &::before {
+            position: absolute;
+            content: "";
+            width: 96px;
+            height: 96px;
+            top: 0;
+            left: 0;
+            border-radius: 50%;
+            background-color: #FCB72B;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: inline-block;
+            z-index: 1;
+        }
+        
+        
+    }
+    
+    
+    &__item-1 {
+        &::before {
+            background-image: url(./../../images/icon__1.svg);
+        }
+    }
+    
+    &__item-2 {
+        &::before {
+            background-image: url(./../../images/icon__2.svg);
+        }
+    }
+    
+    &__item-3 {
+        &::before {
+            background-image: url(./../../images/icon__3.svg);
+        }
+    }
+    
+    &__header {
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: #495567;
+        max-width: 350px;
+        width: 100%;
+        margin-bottom: 27px;
+    }
+    
+    &__text {
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        max-width: 350px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:870px) { 
+    
+    .step {
+        
+        padding-top: 160px;
+        
+        &__inner-wrapper {
+            
+        }
+        
+        &__container {
+        }
+        
+        &__list {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            padding-left: 100px;
+            &::after {
+                width: 837px;
+                left: -368PX;
+                -webkit-transform: rotate(90deg);
+                transform: rotate(90deg);
+                z-index: -1;
+            }
+            
+        }
+        
+        &__item {
+            margin-left: 15px;
+            margin-right: 15px;
+            padding-top: 0;
+            &::before {
+                position: absolute;
+                content: "";
+                width: 96px;
+                height: 96px;
+                top: 35px;
+                left: -112px;
+                border-radius: 50%;
+                background-color: #FCB72B;
+                background-repeat: no-repeat;
+                background-position: center;
+                display: inline-block;
+                z-index: 1;
+            }
+            
+            
+        }
+        
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}
+@media only screen and (max-width:430px) { 
+    
+    .step {
+        
+        &__inner-wrapper {
+            
+        }
+        
+        &__container {
+            
+        }
+        
+        &__list {
+            gap: 132px;
+            padding-left: 0;
+            &::after {
+                width: 0;
+                height: 0;
+            }
+            
+        }
+        
+        &__item {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            &::before {
+                justify-content: center;
+                top: -40% ;
+                left: 35% ;
+            }
+            
+        }
+        
+        &__header {
+        }
+        
+        &__text {
+        }
+    }
+}

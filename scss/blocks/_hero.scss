@@ -1,0 +1,199 @@
+.hero {
+    padding-bottom: 125px;
+    
+    &-bg {
+        background-image: url(./../../images/hero__bgi.jpg);
+        background-size: container;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 153px;
+        padding-bottom: 152px;
+    }
+    
+    &__container {
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    &__header {
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+        max-width: 500px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    &__text {
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        max-width: 405px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 95px;
+        position: relative;
+        &::before {
+            position: absolute;
+            display: inline-block;
+            content: "";
+            background-image: url(./../../images/hero__before.svg);
+            background-repeat: no-repeat;
+            width: 203px;
+            height: 438px;
+            top: 50%;
+            left: calc(  -50% - 57px) ;
+        }
+        &::after {
+            position: absolute;
+            display: inline-block;
+            content: "";
+            background-image: url(./../../images/hero__after.svg);
+            background-repeat: no-repeat;
+            width: 452px;
+            height: 151px;
+            top: 50%;
+            left: calc(  100% + 40px) ;
+        }
+    }
+    
+    &__link {
+        padding: 15px 39px;        
+        text-align: center;
+        background-color: #FCB72B;
+        color: #FFFFFF;
+        width: 180px;
+        display: inline-block;
+        margin-left: 95px;
+        &:hover {
+            box-shadow: 0 0 0 3px #FCB72B ;
+            background-color: inherit;
+            color: #FCB72B;
+        }
+        &:active {
+            opacity: 0.6;
+        }
+    }
+}
+
+@media only screen and (max-width:770px) { 
+    
+    .hero {
+        
+        
+        &__bg-container {
+            background-image: url(./../../images/hero__bgi-tablet.jpg);
+            padding-top: 137px;
+        }
+        
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        &__header {
+            margin-left: 0;
+            font-size: 56px;
+            line-height: 56px;
+            text-align: center;
+        }
+        
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-left: 0;
+            &::before {
+                position: absolute;
+                display: inline-block;
+                content: "";
+                background-image: url(./../../images/hero__after.svg);
+                background-repeat: no-repeat;
+                width: 452px;
+                height: 151%;
+                top: 157%;
+                left: calc( -50% - 106px);
+            }   
+            &::after {
+                width: 0;
+                height: 0;
+            }   
+        }
+        
+        &__link {
+            margin-left: 0;
+        }
+    }
+    
+}
+
+@media only screen and (max-width:590px) { 
+    .hero {
+        padding-top: 75px;
+    }
+ 
+}
+@media only screen and (max-width:462px) { 
+    
+    .hero {
+        
+        
+        &__bg-container {
+            background-image: url(./../../images/hero__bgi-mobile.jpg);
+            padding-top: 137px;
+        }
+        
+        &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+        }
+        
+        &__header {
+            margin-left: 0;
+            font-size: 40px;
+            line-height: 40px;
+            letter-spacing: -1.78571px;
+        }
+        
+        &__text {
+            font-size: 16px;
+            line-height: 25px;
+            margin-left: 0;
+            margin-top: 24px;
+            margin-bottom: 34px;
+            &::before {
+                position: absolute;
+                display: inline-block;
+                content: "";
+                background-image: url(./../../images/hero__after.svg);
+                background-repeat: no-repeat;
+                width: 452px;
+                height: 151%;
+                top: 157%;
+                left: calc( -50% - 206px);
+            }   
+            &::after {
+                width: 0;
+                height: 0;
+            }   
+        }
+        
+        &__link {
+            margin-left: 0;
+        }
+    }
+    
+}
+

@@ -1,0 +1,56 @@
+.nth {
+    
+    &__container {
+    }
+    
+    &__wrapper {
+    }
+    
+    &__list {
+        list-style-type: none;
+        gap: 150px;
+        
+    }
+    
+    &__item {
+    }
+    
+    &__list:nth-child(2n) {
+        text-align: right;
+        order: -1;
+    }
+    
+    &__item-header {
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #495567;
+        margin: 0;
+
+    }
+    &__item-text {
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        margin: 0;
+        margin-bottom: 40px;
+        margin-top: 24px;
+        
+    }
+    
+    &__item-link {
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 14px 44px;
+        background-color: #FCB72B;
+        display: inline-block;
+        margin: 0;
+
+    }
+}
