@@ -104,7 +104,14 @@
         background-color: #FCB72B;
         display: inline-block;
         margin: 0;
-        
+        &:hover {
+            box-shadow: 0 0 0 2px #FCB72B;
+            color: #FCB72B;
+            background-color: inherit;
+        }
+        &:active {
+            opacity: 0.6;
+        }
     }
     
 }

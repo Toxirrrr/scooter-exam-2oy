@@ -1050,6 +1050,17 @@ a {
   margin: 0;
 }
 
+.girl__link:hover {
+  -webkit-box-shadow: 0 0 0 2px #FCB72B;
+          box-shadow: 0 0 0 2px #FCB72B;
+  color: #FCB72B;
+  background-color: inherit;
+}
+
+.girl__link:active {
+  opacity: 0.6;
+}
+
 .girl__picture {
   -webkit-box-shadow: 535px 0px 0 #E5ECF4;
           box-shadow: 535px 0px 0 #E5ECF4;
@@ -1268,6 +1279,17 @@ a {
   background-color: #FCB72B;
   display: inline-block;
   margin: 0;
+}
+
+.nth__item-link:hover {
+  -webkit-box-shadow: 0 0 0 2px #FCB72B;
+          box-shadow: 0 0 0 2px #FCB72B;
+  color: #FCB72B;
+  background-color: inherit;
+}
+
+.nth__item-link:active {
+  opacity: 0.6;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1568,12 +1590,45 @@ a {
           align-items: center;
 }
 
+.footer svg {
+  fill: currentColor;
+  color: #FCB72B;
+  fill: currentColor;
+  color: #FCB72B;
+  fill: currentColor;
+  color: #FCB72B;
+}
+
+.footer svg:hover {
+  color: #fff;
+}
+
+.footer svg:hover {
+  color: #fff;
+}
+
+.footer svg:hover {
+  color: #fff;
+}
+
+.footer__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 14px;
+}
+
 .footer__item-link:hover {
   color: #FCB72B;
 }
 
 .footer__item-link:active {
   opacity: 0.6;
+}
+
+.footer__link:hover {
+  fill: currentColor;
+  color: white;
 }
 
 .footer__link:active {

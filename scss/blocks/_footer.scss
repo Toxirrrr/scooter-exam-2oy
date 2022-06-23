@@ -58,11 +58,40 @@
         align-items: center;
         
     }
+    
+    svg {
+        fill: currentColor;
+        color: #FCB72B;
+        &:hover {
+            color: #fff;
+    }
+        fill: currentColor;
+        color: #FCB72B;
+        &:hover {
+            color: #fff;
+    }
+        fill: currentColor;
+        color: #FCB72B;
+        &:hover {
+            color: #fff;
+    }
+    }
+    
+    
+    &__link {
+        display: flex;
+        gap: 14px;
+    }
     &__item-link:hover {
         color: #FCB72B;
     }
     &__item-link:active {
         opacity: 0.6;
+    }
+    
+    &__link:hover {
+        fill: currentColor;
+        color: white;
     }
     
     &__link:active {
