@@ -624,7 +624,7 @@ a {
 }
 
 .hero-bg {
-  background-image: url(./../../images/hero__bgi.jpg);
+  background-image: url(./../images/hero__bgi.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -634,7 +634,7 @@ a {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .hero-bg__content {
-    background-image: url(./../../images/hero__bgi@2x.jpg);
+    background-image: url(./../images/hero__bgi@2x.jpg);
   }
 }
 
@@ -897,15 +897,15 @@ a {
 }
 
 .step__item-1::before {
-  background-image: url(./../../images/icon__1.svg);
+  background-image: url(./../images/icon__1.svg);
 }
 
 .step__item-2::before {
-  background-image: url(./../../images/icon__2.svg);
+  background-image: url(./../images/icon__2.svg);
 }
 
 .step__item-3::before {
-  background-image: url(./../../images/icon__3.svg);
+  background-image: url(./../images/icon__3.svg);
 }
 
 .step__header {
